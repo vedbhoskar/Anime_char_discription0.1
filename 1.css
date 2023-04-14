@@ -1,0 +1,56 @@
+.box {
+  height: 50%;
+  width: 50%;
+  box-sizing: Border-box;
+  border: 0.12px solid rgb(90, 82, 82);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.box1 {
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/114/1008/41/one-piece-monkey-d-luffy-hd-wallpaper-preview.jpg");
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  
+}
+.box2 {
+  background-image: url("https://wallpaperaccess.com/full/2725441.jpg");
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+.box3 {
+  background-image: url("https://wallpaperaccess.com/full/466433.jpg");
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+.box4 {
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/345/71/630/anime-black-clover-asta-black-clover-book-wallpaper-preview.jpg");
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+
+.box1:hover {
+  opacity: 0.7;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+.box2:hover {
+  opacity: 0.7;
+}
+.box3:hover {
+  opacity: 0.7;
+}
+.box4:hover {
+  opacity: 0.7;
+}
+
+.box1:active {opacity: 0.5;}
+.box2:active {opacity: 0.5;}
+.box3:active {opacity: 0.5;}
+.box4:active {opacity: 0.5;}
+
